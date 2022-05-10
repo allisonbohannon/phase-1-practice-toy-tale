@@ -72,6 +72,8 @@ function renderToyCard(toy) {
       .then(response => response.json())
       .then(renderToyCard(newToy))
     })
+
+    
   }
 
   function updateLikes(toy) {
